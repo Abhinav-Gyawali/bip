@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% block head %}
+ <link rel="stylesheet" href="{{ url_for('static', filename='css/404.css') }}"> 
+{% endblock head %}
+
+
+
+{% block title %}404 Error{% endblock title %}
+
+{% block body %}
+<div id="particles-js"></div>
+<script src="/static/js/particles.js"></script>
+<script src="/static/js/app.js"></script>
+<div class="hel">
+
+<h1 class="h1">404 Error</h1>
+  <div class="p">The page you were looking for doesn’t exist. You may have mistyped the address or the page may have moved.</div>
+  <a class="a"href="/">Go home!</a>
+</div>
+{% endblock body %}

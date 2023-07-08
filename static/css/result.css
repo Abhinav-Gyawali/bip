@@ -1,0 +1,179 @@
+.img{
+    position: sticky;
+    padding-top: 50px;
+    top: 0;
+    height: 115%;
+    width: 100%;
+    
+}
+.section:nth-child(2){
+    color: white;
+    background-color: white;
+}
+.nebtext{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 0.5em;
+    left: 0;
+    padding: 300px 0px 0px 30px;
+    
+    
+}
+
+.nebtext1{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 0.5em;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    margin: 140px 0px 0px 0px;
+    
+    
+}
+.section:nth-child(1){
+    background-image: url("/static/webimg/nebback.jpg");
+}
+.pdiv{
+    line-height: 30px;
+    text-align: justify;
+    word-spacing: 3px;
+    color: #000;
+}
+.resultimg{
+    align-items: center;
+    justify-content: center;
+    
+}
+.div3{
+    padding: 40px;
+}
+.pdiv2{
+    padding-top: 15px;
+}
+table td{
+    color: #000;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 149, 255);
+}
+.div2{
+    box-shadow: 0px 0px 40px var(--tert-color);
+    width: 70%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: white;
+    position: relative;
+    margin-top: 200px;
+    font-family: Quicksand,sans-serif;
+    padding: 0px 0px 00px 20px;
+
+}
+.section:nth-child(2){
+    height: 50vh;
+}
+.div4{
+    height: 50vh;
+}
+.title2{
+    margin-top: 20px;
+}
+.title1{
+    color: #333;
+    display: flex;
+    left: 0;
+    font-family: Quicksand,sans-serif;
+    font-size: 1.5em;
+}
+.div4{
+    display: flex;
+    position: relative;
+}
+.styled-list{
+    padding-left: 30px;
+}
+.styled-list li {
+    padding-left: 60px;
+    margin-bottom: 10px;
+}
+
+.styled-list li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.styled-list li a:hover {
+    text-decoration: underline;
+}
+    .styled-table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+    
+    .styled-table th,
+    .styled-table td {
+        border: 1px solid #ddd;
+        padding: 8px;
+    }
+    
+    .styled-table th {
+        background-color: #f2f2f2;
+        font-weight: bold;
+    }
+    
+    .styled-table td {
+        font-weight: normal;
+    }
+    
+    .styled-table a {
+        color: #1e90ff;
+        text-decoration: none;
+    }
+    
+    .styled-table a:hover {
+        text-decoration: underline;
+    }
+@media (max-width: 850px){
+        .nebtext1, .nebtext{
+            font-size: 1em;
+
+        }
+        .resultimg{
+            height: fit-content;
+            width: 450px;
+        }
+}
+@media (max-width: 700px){
+    .resultimg{
+        height: fit-content;
+        width: 400px;
+    }
+}
+@media (max-width: 600px){
+    .div2{
+        width: 90%;
+    }
+    
+    .resultimg{
+        height: fit-content;
+        width: 350px;
+    }
+
+}
+@media (max-width: 460px){
+    .resultimg{
+        height: fit-content;
+        width: 300px;
+    }
+}
+@media (max-width: 400px){
+    .resultimg{
+        height: fit-content;
+        width: 210px;
+    }
+    .styled-list li {
+        padding-left: 30px;
+        margin-bottom: 10px;
+    }
+}

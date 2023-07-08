@@ -1,0 +1,28 @@
+{% extends 'base.html'%}
+{% block title %}
+Home -
+{%endblock title%}
+{% block body %}
+<script src="/static/js/index.js"></script>
+
+<section>
+  <div id="particles-js"></div>
+  <script src="/static/js/particles.js"></script>
+  <script src="/static/js/app.js"></script>
+   <div class="mainpg" id="main-page-text">
+  Laxmi Bee Keeping<br>
+  <p>The Best Place To Get Yourself Sweetest And healthiest Honey.</p>
+  </div>
+  <div class="start" id="downstart">
+    <div id="starttext"><u><a href="#getstart">get started</a></u></div><br>
+    <ion-icon name="chevron-down-outline"></ion-icon>
+  </div> 
+</section> 
+<section >
+  <div  class="video" id="getstart">
+    <iframe class="ytvideo" src="https://www.youtube.com/embed/iZH6ZvnmFBs?&autoplay=1&mute=0" title="YouTube video player" frameborder="0"  allow="  accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <h3 class="yttitle">Watch Our Intro Video</h3>
+    </div>
+</section>
+
+{%endblock body%}

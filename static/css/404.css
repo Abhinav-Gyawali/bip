@@ -1,0 +1,114 @@
+section:nth-child(1){
+  background-color: #333;
+}
+section:nth-child(2){
+
+  background-image: linear-gradient(#333, #333);
+}
+section:nth-child(1) h1{
+  position: relative;
+  top: 0%;
+  transform: translateY(-25vh);
+
+  color: #000000;
+  font-size: 1.7em;
+}
+section:nth-child(1) p{
+  color: #0c0c0c;
+  font-size: 0.7em;
+}
+section:nth-child(2){
+  display: flex;
+}
+section:nth-child(2) .container{
+  margin-top: 10px;
+}
+section .textcards{
+  padding: 15px;
+  width: 300px;
+}
+/* section p{
+  text-align: justify;
+  justify-content: center;
+} */
+particles-js{
+  z-index: 999;
+  position: absolute;
+}
+body{
+  background-image: linear-gradient(#333, #333);
+}
+.class02{
+  margin-bottom: 10px;
+}
+section .biology12, .cards{
+  justify-content: center;
+  align-items: center;
+}
+a{
+  text-decoration: none;
+  color: #fff;
+  list-style: none;
+}
+.mainpg h1{
+  margin-top: 60px;
+}
+.hel{
+    width:100%;
+    /* margin-left:; */
+      /* background-color:white; */
+      color: black;
+      user-select: none;
+      
+      padding: 480px 5px 140px 8px;
+    }
+    /* .hel::selector{
+        background: rgba(0, 0, 0, 0)
+    } */
+    /* .h1{
+        pointer-events: none;
+    } */
+    @media (max-width:700px){
+      .section:nth-child(1) h1{
+        position: relative;
+        transform: translateY(-35vh);
+      }
+      section:nth-child(1) p{
+        color: #0c0c0c;
+        font-size: 1em;
+      }
+        .hel{
+            padding-top : 500px;
+            padding-bottom: 155px;
+        }
+        .a:hover{
+            border-bottom: none;
+            color:#333;
+          }
+    }
+    .h1 {
+      font-size: 70px;
+      font-family: Arial, sans-serif;
+      font-weight:300;
+      margin-bottom: 0;
+    }
+    .p {
+      font-size: 16px;
+      margin-top: 0px;
+      font-weight:150;
+      
+    }
+    .a {
+      position: absolute;
+      z-index: 1000;
+      color: #000000;
+      text-decoration: none;
+      border-bottom: 1px solid black;
+      padding-bottom: 2px;
+      border-bottom:2px solid #1b1a1a;
+      
+    }
+    .a:active {
+      border-bottom: none;
+      color:#333;
+    }
